@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+}
+
+body {
+    background-color: #252321;
+    padding: 14px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #c9bdb1;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.center-list {
+    width: fit-content;
+    padding-left: 0;
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0 auto;
+}
+
+li a {
+    font-size: 24px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #8a7462;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #8b7b7b;
+
+}

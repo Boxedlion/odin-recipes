@@ -1,11 +1,17 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ddd;
 }
 
 body {
     background-color: #252321;
-    padding: 14px;
+    max-width: 800px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 24px 48px;
+}
+
+header {
+    text-align: center;
 }
 
 h1 {
@@ -14,17 +20,31 @@ h1 {
     color: #c9bdb1;
 }
 
+h3 {
+    color: #c9bdb1;
+}
+
+
 img {
     max-width: 500px;
     max-height: 500px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    display: block;
+    border-radius: 25px;
 }
 
-.center-list {
-    width: fit-content;
-    padding-left: 0;
-    list-style-type: square;
-    list-style-position: inside;
-    margin: 0 auto;
+ul,
+ol {
+    color: #c9bdb1;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 li a {
@@ -42,4 +62,81 @@ a:active {
     text-decoration: underline;
     color: #8b7b7b;
 
+}
+
+.header-image {
+    width: 300px;
+    height: auto;
+    margin-top: 24px;
+}
+
+.recipe-description {
+
+    width: fit-content;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #7e7070;
+    border-radius: 5px;
+    padding: 24px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.description-title {
+    text-align: center;
+    color: #c9bdb1;
+}
+
+.description {
+    text-align: center;
+    color: #c9bdb1;
+}
+
+.center-list {
+    width: fit-content;
+    padding-left: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0 auto;
+}
+
+.title {
+    border: 10px solid #7e7070;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 32px;
+    margin-bottom: 40px;
+}
+
+.title p {
+    font-size: 20px;
+    color: #c9bdb1;
+    margin-bottom: 24px;
+}
+
+.index-title {
+    margin: 24px 0px 24px;
+    ;
+}
+
+.list-decoration {
+    border-top: 10px solid #edd;
+    border-bottom: 10px solid #edd;
+    border-radius: 10px;
+    padding: 16px 16px;
+}
+
+.recipe-list-decoration {
+    border-top: 10px solid #edd;
+    border-bottom: 10px solid #edd;
+    border-radius: 10px;
+    padding: 48px 12px;
+}
+
+.return {
+    width: fit-content;
+    margin: 0 auto;
 }
